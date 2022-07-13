@@ -13,10 +13,9 @@ const Work = () => {
           <p className='py-6'>// bekijk mijn recente werk</p>
         </div>
 
-{/* Container */}
+        {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-
-            {/* Grid Item */}
+          {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Theoriex})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -24,15 +23,23 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                Theoriex.nl
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://theoriex.nl/'
+                >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    website
                   </button>
                 </a>
-                <a href='/'>
+                <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://github.com/alindoNL/theoriex.nl'
+                >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -63,7 +70,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-            {/* Grid Item */}
+          {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${WorkImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -110,7 +117,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-            {/* Grid Item */}
+          {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${WorkImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -160,7 +167,7 @@ const Work = () => {
         </div>
       </div>
     </div>
-  );
+  )
 };
 
 export default Work;
