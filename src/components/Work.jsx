@@ -1,8 +1,8 @@
-import React from 'react';
-import Profdrive from '../assets/profdrive.png';
-import realEstate from '../assets/realestate.jpg';
-import Theoriex from '../assets/theoriex.png';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import Profdrive from '../assets/profdrive.png'
+import realEstate from '../assets/realestate.jpg'
+import Theoriex from '../assets/theoriex.png'
+import { Link } from 'react-router-dom'
 const Work = () => {
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
@@ -26,7 +26,10 @@ const Work = () => {
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Theoriex.nl
               </span>
-              <p className='text-lg mx-2 '>bezig, als je naar examens gaat en op examen 2 klikt kun je zien hoe het systeem gaat werken.</p>
+              <p className='text-lg mx-2 '>
+                bezig, als je naar examens gaat en op examen 2 klikt kun je zien
+                hoe het systeem gaat werken.
+              </p>
               <div className='pt-8 text-center'>
                 <a
                   target='_blank'
@@ -40,7 +43,7 @@ const Work = () => {
                 <a
                   target='_blank'
                   rel='noopener noreferrer'
-                  href='https://github.com/alindoNL/theoriex.nl'
+                  href='https://github.com/alindoNL/theoriex'
                 >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
@@ -87,6 +90,6 @@ const Work = () => {
       </div>
     </div>
   )
-};
+}
 
-export default Work;
+export default Work
