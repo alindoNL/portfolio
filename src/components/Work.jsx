@@ -77,7 +77,7 @@ const Work = () => {
                 <a
                   target='_blank'
                   rel='noopener noreferrer'
-                  href='https://github.com/alindoNL/rijschool-profdrive'
+                  href='https://github.com/alindoNL/rijschool-profdrive/tree/main/profdrive-react'
                 >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
