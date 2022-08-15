@@ -53,7 +53,7 @@ const Work = () => {
             </div>
           </div>
 
-          {/* Grid Item */}
+          {/* Grid Items */}
 
           <div
             style={{ backgroundImage: `url(${Profdrive})` }}
