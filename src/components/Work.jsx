@@ -23,7 +23,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <span className='text-2xl font-bold flex items-center justify-center text-white tracking-wider'>
                 Theoriex.nl
               </span>
               <p className='text-lg mx-2 '>
@@ -61,7 +61,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <span className='text-2xl font-bold  text-white tracking-wider'>
                 Rijschool Profdrive
               </span>
               <div className='pt-8 text-center'>

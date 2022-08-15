@@ -17,7 +17,7 @@ const Home = () => {
         ik ben gespecialiseerd in React.js.
         </p>
         <div>
-            <Link to='work' smooth={true} duration={400}>
+            <Link to='work' smooth={true} duration={200}>
           <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
               bekijk mijn werk
             <span className='group-hover:rotate-90 duration-300'>
