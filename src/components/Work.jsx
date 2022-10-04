@@ -2,6 +2,7 @@ import React from 'react'
 import Profdrive from '../assets/profdrive.png'
 import realEstate from '../assets/realestate.jpg'
 import Theoriex from '../assets/theoriex.png'
+import Ss from '../assets/ss.png'
 import { Link } from 'react-router-dom'
 const Work = () => {
   return (
@@ -49,6 +50,32 @@ const Work = () => {
                     Code
                   </button>
                 </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Ss})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold flex items-center justify-center text-white tracking-wider'>
+               Plutendo
+              </span>
+              <p className='text-lg mx-2 '>
+               Thuiswerk vacatures
+              </p>
+              <div className='pt-8 text-center'>
+                <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://www.plutendo.com/'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    website
+                  </button>
+                </a>
+               
               </div>
             </div>
           </div>
