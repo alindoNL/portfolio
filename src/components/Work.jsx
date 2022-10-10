@@ -60,11 +60,9 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold flex items-center justify-center text-white tracking-wider'>
-               Plutendo
+                Plutendo
               </span>
-              <p className='text-lg mx-2 '>
-               Thuiswerk vacatures
-              </p>
+              <p className='text-lg mx-2 '>Thuiswerk vacatures</p>
               <div className='pt-8 text-center'>
                 <a
                   target='_blank'
@@ -75,7 +73,15 @@ const Work = () => {
                     website
                   </button>
                 </a>
-               
+                <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://github.com/alindoNL/Plutendo.com'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           </div>
