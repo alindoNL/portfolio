@@ -2,6 +2,8 @@ import React from 'react'
 import Profdrive from '../assets/profdrive.png'
 import realEstate from '../assets/realestate.jpg'
 import Theoriex from '../assets/theoriex.png'
+import Vbommel from '../assets/vbommel.png'
+
 import Ss from '../assets/ss.png'
 import { Link } from 'react-router-dom'
 const Work = () => {
@@ -83,6 +85,38 @@ const Work = () => {
                     Code
                   </button>
                 </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Vbommel})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 px-12 group-hover:opacity-100'>
+              <span className='text-2xl  font-bold flex items-center justify-center text-white tracking-wider'>
+                vanbommel
+              </span>
+              <p className='text-lg mx-2 '>rijschool vanBommel</p>
+              <div className='pt-8 text-center'>
+                <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://www.vanbommelverkeersschool.nl/'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    website
+                  </button>
+                </a>
+                {/* <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://github.com/alindoNL/theoriex'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a> */}
               </div>
             </div>
           </div>
