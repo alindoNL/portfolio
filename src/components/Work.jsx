@@ -25,7 +25,7 @@ const Work = () => {
             style={{ backgroundImage: `url(${Test})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
-            {/* Hover Effects */}
+            {/* Hover Effescts */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold flex items-center justify-center text-white tracking-wider'>
                 Cleanersurvey
