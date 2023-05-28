@@ -1,6 +1,6 @@
 import React from 'react'
 import Profdrive from '../assets/profdrive.png'
-import Test from '../assets/test.jpg'
+import Test from '../assets/test.png'
 import Theoriex from '../assets/theoriex.png'
 import Focuz from '../assets/focuz.png'
 import Vbommel from '../assets/vbommel.png'
