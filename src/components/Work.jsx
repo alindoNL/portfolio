@@ -1,6 +1,6 @@
 import React from 'react'
 import Profdrive from '../assets/profdrive.png'
-import realEstate from '../assets/realestate.jpg'
+import Test from '../assets/test.jpg'
 import Theoriex from '../assets/theoriex.png'
 import Focuz from '../assets/focuz.png'
 import Vbommel from '../assets/vbommel.png'
@@ -21,6 +21,41 @@ const Work = () => {
         {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${Test})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold flex items-center justify-center text-white tracking-wider'>
+                Cleanersurvey
+              </span>
+              <p className='text-lg mx-2 '>
+                easily create and send surveys to gather valuable feedback from
+                your audience.
+              </p>
+              <div className='pt-8 text-center'>
+                <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://www.cleanersurvey.com/'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    website
+                  </button>
+                </a>
+                <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://github.com/alindoNL'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
           <div
             style={{ backgroundImage: `url(${Ss})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
