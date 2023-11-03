@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import {
   FaBars,
   FaTimes,
@@ -6,15 +6,15 @@ import {
   FaLinkedin,
   FaFacebook,
   FaLinkedinIn,
-} from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/AA.png';
-import { Link } from 'react-scroll';
+} from 'react-icons/fa'
+import { HiOutlineMail } from 'react-icons/hi'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
+import Logo from '../assets/AA.png'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
+  const [nav, setNav] = useState(false)
+  const handleClick = () => setNav(!nav)
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
@@ -98,7 +98,7 @@ const Navbar = () => {
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
-           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               target='_blank'
               rel='noopener noreferrer'
@@ -106,6 +106,16 @@ const Navbar = () => {
               href='https://www.chatgptgratis.nl/'
             >
               ChatGPT
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              className='flex justify-between items-center w-full text-gray-300'
+              href='https://qrcodemaker.nl/'
+            >
+              QrCodeMaker
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
@@ -148,6 +158,6 @@ const Navbar = () => {
       </div>
     </div>
   )
-};
+}
 
-export default Navbar;
+export default Navbar
