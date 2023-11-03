@@ -22,7 +22,6 @@ const Navbar = () => {
         <img src={Logo} alt='Logo Image' style={{ width: '50px' }} />
       </div>
 
-      {/* menu */}
       <ul className='hidden md:flex'>
         <li>
           <Link to='home' smooth={true} duration={500}>
