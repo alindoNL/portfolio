@@ -89,6 +89,32 @@ const Work = () => {
             </div>
           </div>
 
+
+          <div
+        
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold flex items-center justify-center text-white tracking-wider'>
+                APA Generator
+              </span>
+              <p className='text-lg mx-2 '>Gratis APA generator</p>
+              <div className='pt-8 text-center'>
+                <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://apagenerator.nl/'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    APA Generator
+                  </button>
+                </a>
+               
+              </div>
+            </div>
+          </div>
+
           <div
             style={{ backgroundImage: `url(${Theoriex})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
