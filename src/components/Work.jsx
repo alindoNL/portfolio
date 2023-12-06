@@ -65,7 +65,7 @@ const Work = () => {
               <span className='text-2xl font-bold flex items-center justify-center text-white tracking-wider'>
                 Plutendo
               </span>
-              <p className='text-lg mx-2 '>Thuiswerk vacatures</p>
+              <p className='text-lg mx-2 '>Jouw Gids naar Handige Online Hulpmiddelen en Diensten</p>
               <div className='pt-8 text-center'>
                 <a
                   target='_blank'
@@ -88,7 +88,30 @@ const Work = () => {
               </div>
             </div>
           </div>
-
+          <div
+        
+            className='shadow-lg  group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-100 '>
+              <span className='text-2xl font-bold flex items-center justify-center text-white tracking-wider'>
+                ChatGPT
+              </span>
+              <p className='text-lg mx-2 '>Gratis ChatGPT Gebruiken</p>
+              <div className='pt-8 text-center'>
+                <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://apagenerator.nl/'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    ChatGPT Nederlands
+                  </button>
+                </a>
+               
+              </div>
+            </div>
+          </div>
 
           <div
         
