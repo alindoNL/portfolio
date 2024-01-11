@@ -137,6 +137,28 @@ const Work = () => {
               </div>
             </div>
           </div>
+ <div
+        
+            className='shadow-lg  group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-100 '>
+              <span className='text-2xl font-bold flex items-center justify-center text-white tracking-wider'>
+               Wordle
+              </span>
+              <p className='text-lg mx-2 '>Gratis Wordle in het Nederlands</p>
+              <div className='pt-8 text-center'>
+                <a
+                  href='https://wordlee.nl/'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Wordle
+                  </button>
+                </a>
+               
+              </div>
+            </div>
+          </div>
 
           <div
             style={{ backgroundImage: `url(${Theoriex})` }}
