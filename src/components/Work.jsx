@@ -110,6 +110,29 @@ const Work = () => {
               </div>
             </div>
           </div>
+    <div
+            className='shadow-lg  group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-100 '>
+              <span className='text-2xl font-bold flex items-center justify-center text-white tracking-wider'>
+              Tool voor profilering van websitetechnologie
+              </span>
+{/*               <p className='text-lg mx-2 '>TechPeeker</p> */}
+              <div className='pt-8 text-center'>
+                <a
+                  href='https://www.techpeeker.com/'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                   TechPeeker
+                  </button>
+                </a>
+               
+              </div>
+            </div>
+          </div>
+
+          
   <div
         
             className='shadow-lg  group container rounded-md flex justify-center items-center mx-auto content-div'
