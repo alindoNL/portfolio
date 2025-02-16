@@ -219,15 +219,6 @@ const Work = () => {
                 <a
                   target='_blank'
                   rel='noopener noreferrer'
-                  href='https://theoriex.nl/'
-                >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    website
-                  </button>
-                </a>
-                <a
-                  target='_blank'
-                  rel='noopener noreferrer'
                   href='https://github.com/alindoNL/theoriex'
                 >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
