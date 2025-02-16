@@ -208,15 +208,15 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-100 '>
               <span className='text-2xl font-bold flex items-center justify-center text-white tracking-wider'>
-               Wordle
+              SEOCheckr
               </span>
-              <p className='text-lg mx-2 '>Gratis Wordle in het Nederlands</p>
+              <p className='text-lg mx-2 '>Gratis Tools voor Website Optimalisatie</p>
               <div className='pt-8 text-center'>
                 <a
-                  href='https://wordlee.nl/'
+                  href='https://seocheckr.com/'
                 >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Wordle
+                    SEO Tools
                   </button>
                 </a>
                
