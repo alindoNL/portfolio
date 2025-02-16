@@ -95,7 +95,7 @@ const Work = () => {
               <span className='text-2xl font-bold flex items-center justify-center text-white tracking-wider'>
                AI Quotes Generator
               </span>
-              <p className='text-lg mx-2 '>Quotes Editor</p>
+              <p className='text-lg mx-2 '>Quote Maker</p>
               <div className='pt-8 text-center'>
                 <a
                   target='_blank'
@@ -155,29 +155,7 @@ const Work = () => {
             </div>
           </div>
 
-          
-  <div
         
-            className='shadow-lg  group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-100 '>
-              <span className='text-2xl font-bold flex items-center justify-center text-white tracking-wider'>
-                Brazybot
-              </span>
-              <p className='text-lg mx-2 '>BrazyBot AI chatbots</p>
-              <div className='pt-8 text-center'>
-                <a
-                  href='https://brazybot.com'
-                >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    BrazyBot
-                  </button>
-                </a>
-               
-              </div>
-            </div>
-          </div>
 
           <div
         
@@ -260,40 +238,6 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Vbommel})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 px-12 group-hover:opacity-100'>
-              <span className='text-2xl  font-bold flex items-center justify-center text-white tracking-wider'>
-                vanbommel
-              </span>
-              <p className='text-lg mx-2 '>rijschool vanBommel</p>
-              <div className='pt-8 text-center'>
-                <a
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  href='https://www.vanbommelverkeersschool.nl/'
-                >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    website
-                  </button>
-                </a>
-                {/* <a
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  href='https://github.com/alindoNL/theoriex'
-                >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a> */}
-              </div>
-            </div>
-          </div>
-          {/* Grid Items */}
-
-          <div
             style={{ backgroundImage: `url(${Profdrive})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
@@ -321,38 +265,6 @@ const Work = () => {
                     Code
                   </button>
                 </a>
-              </div>
-            </div>
-          </div>
-
-          <div
-            style={{ backgroundImage: `url(${Focuz})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold  text-white tracking-wider'>
-                Focuznow productivity website
-              </span>
-              <div className='pt-8 text-center'>
-                <a
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  href='https://focuznow.vercel.app/'
-                >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Website
-                  </button>
-                </a>
-                {/* <a
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  href='https://github.com/alindoNL/rijschool-profdrive/tree/main/profdrive-react'
-                >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a> */}
               </div>
             </div>
           </div>
